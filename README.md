@@ -13,6 +13,8 @@ Installation
 ------------
 Copy the deletecourses folder into your /admin/tool directory and visit your Admin Notification page to complete the installation.
 
+  git clone https://github.com/learningx-project/tool_deletecourses.git tool_deletecourses
+
 Usage
 -----
 The tool adds a link to the category navigation block, "Delete all courses." The user will be taken to a page describing what will happen and requesting confirmation. On confirmation, Moodle will create an "[adhoc task](https://docs.moodle.org/dev/Task_API#Adhoc_tasks)" to delete all the courses in the background. This requires the cron be enabled.
