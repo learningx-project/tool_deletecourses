@@ -12,8 +12,12 @@ Requirements
 Installation
 ------------
 Copy the deletecourses folder into your /admin/tool directory and visit your Admin Notification page to complete the installation.
+  
+To install it using git, type this command in the root of your Moodle install:
 
-  git clone https://github.com/learningx-project/tool_deletecourses.git tool_deletecourses
+    git clone https://github.com/learningx-project/tool_deletecourses.git tool/deletecourses
+
+Then add /tool/deletecourses to your git ignore.
 
 Usage
 -----
